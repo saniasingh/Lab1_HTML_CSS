@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <style>
+      /* video {
+        position: relative;
+      } */
+
+      /* margin: 50px 200px; */
+      /* position: absolute; */
+      /* border: 1px solid white; */
+      /* padding: 20px; */
+      /* background-color: transparent; */
+
+      div {
+        position: absolute;
+        /* width: 25%; */
+        top: 10%;
+        left: 35%;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 25px;
+        margin: 10px;
+      }
+
+      input {
+        width: 300px;
+        background-color: whitesmoke;
+        /* color: grey; */
+        font-size: 20px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        margin-bottom: 10px;
+        border: none;
+        /* margin: 8px; */
+        padding: 8px;
+        /* width: 90%; */
+      }
+
+      input:focus {
+        outline: none;
+        background: steelblue;
+        opacity: 0.35;
+        color: white;
+      }
+
+      button {
+        cursor: pointer;
+        background-color: rgb(91, 155, 177);
+        color: white;
+        padding: 8px;
+        margin: 10px 20px;
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <video mute autoplay loop>
+        <source src="Background.mp4" type="video/mp4" />
+      </video>
+      <div>
+        <form id="lab-form">
+          <h1>Create Gmail Account</h1>
+          <input
+            title="name"
+            type="text"
+            placeholder="Full Name"
+            required
+          /><br />
+          <input
+            title="contact_num"
+            type="number"
+            min="6000000000"
+            max="9999999999"
+            placeholder="Contact Name"
+            required
+          /><br />
+          <input
+            title="email"
+            type="email"
+            placeholder="Enter Email id"
+            required
+          /><br />
+          <button form="lab-form">Reset</button>
+          <button form="lab-form">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
